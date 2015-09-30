@@ -1,0 +1,2 @@
+# menetrend
+Kecskemét menetrend
