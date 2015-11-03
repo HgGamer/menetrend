@@ -1,0 +1,78 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="Utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	
+	<link href="Style/headers.css" rel="stylesheet" type="text/css"/>
+	<link href="Style/drawer.css" rel="stylesheet" type="text/css"/>
+	<link href="Style/gaia-icons-embedded.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="Scripts/jquery.js"></script>
+	<script type="text/javascript" src="Scripts/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="Style/main.css"/>
+</head>
+<body onload="onload()">
+<style>
+   
+  </style>
+<section data-type="sidebar">
+  <header>
+    <menu type="toolbar">
+      <a href="#content"><span data-icon="back" class="icon icon-back">back</span></a>
+    </menu>
+    <h1>Menü</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Helyi járatok</a></li>
+      <li><a href="#">Távolsági járatok</a></li>
+	</ul>
+    <ul id="hidden" class="hidden">
+		<li><a onclick="jarat(this)" id="menu1" href="#content"></a></li>
+		<li><a onclick="jarat(this)" id="menu2" href="#content"></a></li>
+		<li><a onclick="megallo()" id="menu3" href="#content" ></a></li>
+	</ul>
+	
+	
+  </nav>
+</section>
+<section id="drawer" role="region">
+  <header>
+    <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
+    <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+    <h1 id="titlecontent">Helyi járatok</h1>
+  </header>
+  <div id="main" role="main">
+ <center> 
+<br>
+<table border = '0' >
+<tr >
+<td>
+<button id="gomb_1" href="#" class="myButton" onclick="myFunction(this)">1</button></td><td><button href="#" class="myButton">2</button></td><td><button href="#" class="myButton">2A</button></td><td><button href="#" class="myButton">2D</button></td><td><button href="#" class="myButton">3</button></td>
+</tr>
+<tr >
+<td><button href="#" class="myButton">4</button></td><td><button href="#" class="myButton">4A</button></td><td><button href="#" class="myButton">5</button></td><td><button href="#" class="myButton">6</button></td><td><button href="#" class="myButton">7</button></td>
+</tr>
+<tr >
+<td><button href="#" class="myButton">7C</button></td><td><button href="#" class="myButton">9</button></td><td><button href="#" class="myButton">10</button></td><td><button href="#" class="myButton">11</button></td><td><button href="#" class="myButton">11A</button></td>
+</tr>
+<tr >
+<td><button href="#" class="myButton">12</button></td><td><button href="#" class="myButton">12D</button></td><td><button href="#" class="myButton">13</button></td><td><button href="#" class="myButton">13K</button></td><td><button href="#" class="myButton">14</button></td>
+</tr>
+<tr >
+<td><button href="#" class="myButton">14D</button></td><td><button href="#" class="myButton">15</button></td><td><button href="#" class="myButton">15D</button></td><td><button href="#" class="myButton">16</button></td><td><button href="#" class="myButton">18</button></td>
+</tr>
+<tr >
+<td><button href="#" class="myButton">19</button></td><td><button href="#" class="myButton">20</button></td><td><button href="#" class="myButton">21</button></td><td><button href="#" class="myButton">22</button></td><td><button href="#" class="myButton">23</button></td>
+</tr>
+<tr >
+<td><button href="#" class="myButton">23A</button></td><td><button href="#" class="myButton">25</button></td><td><button href="#" class="myButton">28</button></td><td><button href="#" class="myButton">29</button></td><td><button href="#" class="myButton">52</button></td>
+</tr>
+
+</table>
+
+</section>
+</div>
+</body>
+</html>
